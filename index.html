@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body class="bg-[#1D1D1D]">
+
+    <header class="w-[100%]">
+        <img src="Heading 1.png" class="mx-auto" alt="">
+        <nav class="w-100% flex justify-center gap-[40px]">
+            <input type="text" class="w-[209px] h-[36px] rounded-[6px] text-[black]" id="serch">
+            <details class="">
+                <summary>
+                    <div class="w-[100px] h-[39px] content-center bg-[#FFFFFF] rounded-[5px]">All</div>
+                </summary>
+                <ul class=" w-[100px] h-[150px] bg-[#FFFFFF] rounded-[10px] text-center content-center text-[18px] my-[5px] absolute">                
+                    <li id="horrorBtn">Horror</li>
+                    <li id="advan">Adventure</li>
+                    <li id="Action">Action</li>
+                    <li id="dbtn">Drama</li>
+                    <li id="Fantasy">Fantasy</li>
+                </ul>
+            </details>
+            <details>
+                <summary class=""><div class="w-[209px] h-[36px] rounded-[6px] text-[black] bg-[white] content-center">sort</div></summary>
+                    
+                <ul class=" w-[100px] h-[150px] bg-[#FFFFFF] rounded-[10px] text-center content-center text-[18px]  my-[5px] mx-[50px] absolute">
+                    <li id="za"><a>Z-A</a></li>
+                    <li id="az"><a>A-Z</a></li> 
+                    <li id="sakkiz"><a>2000-2018</a></li> 
+                    <li id="ikki"><a>2018-2000</a></li> 
+                </ul>
+            </details>
+            <button class="w-[209px] h-[36px] rounded-[6px] bg-[#198754] text-[#FFFFFF]" id="btn">Seorch</button>
+        </nav>
+
+        <div class="flex flex-wrap gap-[10px] w-[1440px] mx-auto my-[40px]" id="row"> 
+
+            <!-- <div class="w-[244px] h-[368px] bg-[#333333] text-center text-white">
+                <img src="" alt="">
+                <h2></h2>
+                <ul class="flex gap-27px text-[16px]"><li></li> <li></li> <li></li></ul>
+                <p></p>
+                <button>More info</button>
+            </div> -->
+
+        </div>
+    </header>
+
+    <script type="module" defer src="script.js"></script>
+    <script type="module" defer src="movies.js"></script>
+</body>
+
+</html>
